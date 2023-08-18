@@ -167,7 +167,7 @@ include('db.php');
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4>SUN <span>RISE</span></h4>
+					<h4>Kyle <span>View</span></h4>
 					<img src="images/1.jpg" alt=" " class="img-responsive">
 					<h5>We know what you love</h5>
 					<p>Providing guests unique and enchanting views from their rooms with its exceptional amenities, makes Star Hotel one of bests in its kind.Try our food menu, awesome services and friendly staff while you are here.</p>
@@ -197,28 +197,28 @@ include('db.php');
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_road"></span>
 							<h4 class="cbp-ig-title">MASTER BEDROOMS</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
+							<span class="cbp-ig-category">Kyle View</span>
 						</div>
 					</li>
 					<li>
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_cube"></span>
 							<h4 class="cbp-ig-title">SEA VIEW BALCONY</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
+							<span class="cbp-ig-category">Kyle View</span>
 						</div>
 					</li>
 					<li>
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_users"></span>
 							<h4 class="cbp-ig-title">LARGE CAFE</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
+							<span class="cbp-ig-category">Kyle View</span>
 						</div>
 					</li>
 					<li>
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_ticket"></span>
 							<h4 class="cbp-ig-title">WIFI COVERAGE</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
+							<span class="cbp-ig-category">Kyle View</span>
 						</div>
 					</li>
 				</ul>
@@ -379,7 +379,7 @@ include('db.php');
 		<div class="col-md-3 gallery-grid gallery1">
 			<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
 				<div class="textbox">
-					<h4>SUN RISE</h4>
+					<h4>Kyle View</h4>
 					<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 				</div>
 			</a>
@@ -387,7 +387,7 @@ include('db.php');
 		<div class="col-md-3 gallery-grid gallery1">
 			<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
 				<div class="textbox">
-					<h4>SUN RISE</h4>
+					<h4>Kyle View</h4>
 					<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 				</div>
 			</a>
