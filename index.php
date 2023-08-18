@@ -739,9 +739,9 @@ include('db.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
 				<h4>Connect With Us</h4>
-				<p class="contact-agile1"><strong>Phone :</strong>+91 (65)222-44-55</p>
-				<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">INFO@SUNRISE.COM</a></p>
-				<p class="contact-agile1"><strong>Address :</strong> 150ft Ring Road, Rajkot, Gujarat, India</p>
+				<p class="contact-agile1"><strong>Phone :</strong>+263 8612 816 687</p>
+				<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">INFO@KyleViewCharlets.co.zw</a></p>
+				<p class="contact-agile1"><strong>Address :</strong> 33 km peg Along Great Zimbabwe Road / Lake Kyle Road</p>
 
 				<div class="social-bnr-agileits footer-icons-agileinfo">
 					<ul class="social-icons3">
@@ -758,7 +758,7 @@ include('db.php');
 	</section>
 	<!-- /contact -->
 	<div class="copy">
-		<p>© 2022 SUNRISE . All Rights Reserved | Design by <a href="index.php"> <b> SUNRISE </b></a> </p>
+		<p>© 2023 Kyle View . All Rights Reserved | Design by <a href="index.php"> <b> @MagozoreBrands </b></a> </p>
 	</div>
 	<!--/footer -->
 	<!-- js -->
