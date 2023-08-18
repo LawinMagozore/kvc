@@ -52,6 +52,7 @@
 						<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
 						<li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
 						<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
+						<li class="menu__item"><a href="#contact" class="menu__link scroll">Inquiries</a></li>
 					</ul>
 				</nav>
 			</div>
