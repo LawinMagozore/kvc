@@ -50,13 +50,13 @@
 				<nav class=" menu menu--iris">
 					<ul class="navbar-nav">
 						<li class="nav-item menu__item--current"><a href="" class="menu__link">Home</a></li>
-						<li class="nav-item"><a href="#about" class="menu__link scroll ">About</a></li>
-						<li class="nav-item"><a href="#team" class="menu__link scroll">Team</a></li>
-						<li class="nav-item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
-						<li class="nav-item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
-						<li class="nav-item"><a href="#rooms" class="menu__link scroll">Events</a></li>
-						<li class="nav-item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
-						<li class="nav-item"><a href="inquiries.php" class="menu__link scroll">Inquiries</a></li>
+						<li class=""><a href="#about" class="menu__link scroll ">About</a></li>
+						<li class=""><a href="#team" class="menu__link scroll">Team</a></li>
+						<li class=""><a href="#gallery" class="menu__link scroll">Gallery</a></li>
+						<li class=""><a href="#rooms" class="menu__link scroll">Rooms</a></li>
+						<li class=""><a href="#rooms" class="menu__link scroll">Events</a></li>
+						<li class=""><a href="index.php" class="">Contact Us</a></li>
+						<li class=""><a href="inquiries.php" class="menu__link ">Inquiries</a></li>
 					</ul>
 				</nav>
 			</div>
