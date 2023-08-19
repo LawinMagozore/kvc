@@ -29,30 +29,30 @@
 	<div class="clearfix"></div>
 </div>
 <div class="w3_navigation">
-	<div class="container">
-		<nav class="navbar-brand navbar-default">
-			<div class="navbar navbar-right">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg ">
+			<div class="navbar-header navbar-left ">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<h1><a class="navbar " href="index.php">Kyle <span>View</span>
+				<h1><a class="navbar-brand" href="index.php">Kyle <span>View</span>
 						<p class="logo_w3l_agile_caption">Your Dreamy Resort</p>
 					</a></h1>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-left" id="bs-example-navbar-collapse-1">
-				<nav class="menu menu--iris ">
-					<ul class="navbar-nav flex-row d-none d-md-flex">
-						<li class="menu__item menu__item--current"><a href="" class="menu__link">Home</a></li>
-						<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
-						<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
-						<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
-						<li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
-						<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
-						<li class="menu__item"><a href="#contact" class="menu__link scroll">Inquiries</a></li>
+			<div class="container-fluid" id="navbarRightAlignExample">
+				<nav class=" menu menu--iris">
+					<ul class="navbar-nav  ms-auto mb-1 mb-lg-0 d-flex ">
+						<li class="nav-item menu__item--current"><a href="" class="menu__link">Home</a></li>
+						<li class="nav-item"><a href="#about" class="menu__link scroll ">About</a></li>
+						<li class="nav-item"><a href="#team" class="menu__link scroll">Team</a></li>
+						<li class="nav-item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
+						<li class="nav-item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
+						<li class="nav-item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
+						<li class="nav-item"><a href="#contact" class="menu__link scroll">Inquiries</a></li>
 					</ul>
 				</nav>
 			</div>
