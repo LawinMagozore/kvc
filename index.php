@@ -29,36 +29,41 @@
 	<div class="clearfix"></div>
 </div>
 <div class="w3_navigation">
-	<div class="container-fluid">
-		<nav class="navbar navbar-expand-lg ">
-			<div class="navbar-header navbar-left ">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<h1><a class="navbar-brand" href="index.php">Kyle <span>View</span>
+	<nav class="navbar navbar-expand-lg ">
+		<div class="container-fluid">
+			<button type="button" class="navbar-toggle " data-mbd-toggle="collapse" data-mbd-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<h1 class="navbar-brand ms-2 "><a class="" href="index.php">Kyle <span>View</span>
 						<p class="logo_w3l_agile_caption">Your Dreamy Resort</p>
 					</a></h1>
+
 			</div>
+
+
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="container-fluid" id="navbarRightAlignExample">
+			<div class="collapse navbar-collapse " id="navbarLeftAlignExample">
 				<nav class=" menu menu--iris">
-					<ul class="navbar-nav  ms-auto mb-1 mb-lg-0 d-flex ">
+					<ul class="navbar-nav">
 						<li class="nav-item menu__item--current"><a href="" class="menu__link">Home</a></li>
 						<li class="nav-item"><a href="#about" class="menu__link scroll ">About</a></li>
 						<li class="nav-item"><a href="#team" class="menu__link scroll">Team</a></li>
 						<li class="nav-item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
 						<li class="nav-item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
-						<li class="nav-item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
+						<li class="nav-item"><a href="#contact" class="menu__link scroll">Contact-Us</a></li>
 						<li class="nav-item"><a href="#contact" class="menu__link scroll">Inquiries</a></li>
 					</ul>
 				</nav>
 			</div>
-		</nav>
 
-	</div>
+
+		</div>
+	</nav>
 </div>
 <!-- //header -->
 <!-- banner -->
