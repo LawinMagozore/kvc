@@ -56,7 +56,7 @@
 						<li class="nav-item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
 						<li class="nav-item"><a href="#rooms" class="menu__link scroll">Events</a></li>
 						<li class="nav-item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
-						<li class="nav-item"><a href="#contact" class="menu__link scroll">Inquiries</a></li>
+						<li class="nav-item"><a href="inquiries.php" class="menu__link scroll">Inquiries</a></li>
 					</ul>
 				</nav>
 			</div>
