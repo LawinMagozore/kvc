@@ -39,15 +39,14 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<h1 class="navbar-brand ms-2 "><a class="" href="index.php">Kyle <span>View</span>
+				<h1 class="navbar-brand ms-1 "><a class="" href="index.php">Kyle <span>View</span>
 						<p class="logo_w3l_agile_caption">Your Dreamy Resort</p>
 					</a></h1>
 
 			</div>
 
-
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse " id="navbarLeftAlignExample">
+			<div class="d-flex align-items-center " id="navbarLeftAlignExample">
 				<nav class=" menu menu--iris">
 					<ul class="navbar-nav">
 						<li class="nav-item menu__item--current"><a href="" class="menu__link">Home</a></li>
