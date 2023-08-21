@@ -1,27 +1,26 @@
 <?php include("header.php") ?>
 <?php
-if (isset($_POST('submit'))) {
-    $status = $_POST('status');
-    $firstname = $_POST('firstname');
-    $othername = $_POST('othername');
-    $lname = $_POST('lname');
-    $gender = $_POST('gender');
-    $dob = $_POST('dob');
-    $location = $_POST('location');
-    $nextkin = $_POST('nextkin');
-    $relationship = $_POST('relationship');
-    $nextkinphone = $_POST('nextkinphone');
-    $phonenumb = $_POST('phonenumb');
-    $payment = $_POST('payment');
-    $anyspecial = $_POST('anyspecial');
-    $nodays = $_POST('nodays');
-    $docoming = $_POST('docoming');
-    $doleaing = $_POST('doleaing');
-    $norooms = $_POST('norooms');
-    $email = $_POST('email');
+if (isset($_POST['submit'])) {
+    $status = $_POST['status'];
+    $firstname = $_POST['firstname'];
+    $othername = $_POST['othername'];
+    $lname = $_POST['lname'];
+    $gender = $_POST['gender'];
+    $dob = $_POST['dob'];
+    $location = $_POST['location'];
+    $nextkin = $_POST['nextkin'];
+    $relationship = $_POST['relationship'];
+    $nextkinphone = $_POST['nextkinphone'];
+    $phonenumb = $_POST['phonenumb'];
+    $payment = $_POST['payment'];
+    $anyspecial = $_POST['anyspecial'];
+    $nodays = $_POST['nodays'];
+    $docoming = $_POST['docoming'];
+    $doleaing = $_POST['doleaing'];
+    $norooms = $_POST['norooms'];
+    $email = $_POST['email'];
 
-    mysqli_query($con, "INSERT INTO inquiries (`status`,`firstname`,`lname`,`gender`,`dob`,`location`,`nextkin`,
-    `relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES()");
+    $query = mysqli_query($con, " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')") or die('DB Error');
 }
 
 
