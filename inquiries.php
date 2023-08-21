@@ -1,22 +1,22 @@
 <?php include("header.php") ?>
 
-<section class="bg-dark vh-100 d-flex">
+<section class="vh-100 d-flex" style="background-color: #3f51b5;">
     <div class="col-9 m-auto ">
         <div class="card">
 
             <div class="card-header ">
-                <h4 class='title m-auto'>QOUTATION FORM</h4>
+                <h4 class='card-title text-center '>QOUTATION FORM</h4>
                 <!-- start content_slider -->
                 <div class='alert alert-info'>
                     <i class='fa fa-info'></i>&nbsp;Use the form below to enter your details
                 </div>
             </div>
 
-            <div class="card-body m-auto">
+            <div class="card-body  ">
 
                 <div class='charts'>
-                    <div class='mid-content-top charts-grids'>
-                        <div class='middle-content'>
+                    <div class='mid-content-top charts-grids '>
+                        <div class='middle-content '>
 
                             <form action='register.php' method='post'>
                                 <div class='charts'>
@@ -64,6 +64,59 @@
 
                                     </div>
 
+                                    <div class='col-md-4 charts-grids widget states-mdl'>
+                                        <div class='card-header' style='font-weight: bold;font-family: ' Palatino Linotype', serif'>
+                                            <h3>Other Details</h3>
+                                        </div>
+
+
+                                        <div class='input-group' style='margin-bottom:10px;margin-top:15px;'>
+                                            <span class='input-group-addon'>Village</span>
+                                            <input type='text' name='village' placeholder='Residential area' class='form-control' value=''>
+                                        </div>
+                                        <div class='input-group' style='margin-bottom:10px;'>
+                                            <span class='input-group-addon'>Next of Kin</span>
+                                            <input type='text' name='guardian' placeholder='Enter Guardian' class='form-control' value=''>
+                                        </div>
+                                        <div class='input-group' style='margin-bottom:10px;'>
+                                            <span class='input-group-addon'>Relationship</span>
+                                            <select name='relationshipd' style='height:30px; width: 100%'>
+                                                <option>Mother</option>
+                                                <option>Father</option>
+                                                <option>Auncle</option>
+                                                <option>Aunt</option>
+                                                <option>Sister</option>
+                                                <option>Brother</option>
+                                                <option>Husband</option>
+                                                <option>Wife</option>
+                                            </select>
+
+                                        </div>
+
+                                        <div class='input-group' style='margin-bottom:10px;'>
+                                            <span class='input-group-addon'>Next of Kin Phone</span>
+                                            <input type='number' name='phone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                        </div>
+                                        <div class='input-group' style='margin-bottom:10px;'>
+                                            <span class='input-group-addon'>Patient Phone</span>
+                                            <input type='number' name='kphone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                        </div>
+                                        <div class='input-group' style='margin-bottom:10px;'>
+                                            <span class='input-group-addon'>Select Payment</span>
+                                            <select name='patientpay' id='paypatient' style='height:30px; width: 100%'>
+                                                <option>CASH</option>
+                                                <option>SCHEME</option>
+
+
+
+                                            </select>
+
+                                        </div>
+
+
+
+
+                                    </div>
                                     <div class='col-md-4 charts-grids widget states-mdl'>
                                         <div class='card-header' style='font-weight: bold;font-family: ' Palatino Linotype', serif'>
                                             <h3>Other Details</h3>
