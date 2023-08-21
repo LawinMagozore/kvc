@@ -8,7 +8,7 @@
                 <h4 class='card-title text-center '>QOUTATION FORM</h4>
                 <!-- start content_slider -->
                 <div class='alert alert-info'>
-                    <i class='fa fa-info'></i>&nbsp;Use the form below to enter your details
+                    <i class='fa fa-info'></i>&nbsp;Use the form below to enter your details for your qoutation
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
 
 
                                         <div class='input-group' style='margin-bottom:10px;margin-top:15px;'>
-                                            <span class='input-group-addon'>Village</span>
+                                            <span class='input-group-addon'>Current Location</span>
                                             <input type='text' name='village' placeholder='Residential area' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
@@ -98,7 +98,7 @@
                                             <input type='number' name='phone' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Patient Phone</span>
+                                            <span class='input-group-addon'>Your Phone</span>
                                             <input type='number' name='kphone' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
@@ -124,35 +124,40 @@
 
 
                                         <div class='input-group' style='margin-bottom:10px;margin-top:15px;'>
-                                            <span class='input-group-addon'>Village</span>
-                                            <input type='text' name='village' placeholder='Residential area' class='form-control' value=''>
+                                            <span class='input-group-addon'>No of Rooms</span>
+                                            <input type='number' name='roomnum' placeholder='Residential area' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Next of Kin</span>
-                                            <input type='text' name='guardian' placeholder='Enter Guardian' class='form-control' value=''>
+                                            <span class='input-group-addon'>Any Special case</span>
+                                            <input type='text' name='anyspecialcase' placeholder='Enter Guardian' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Relationship</span>
+                                            <span class='input-group-addon'>No Of Days</span>
                                             <select name='relationshipd' style='height:30px; width: 100%'>
-                                                <option>Mother</option>
-                                                <option>Father</option>
-                                                <option>Auncle</option>
-                                                <option>Aunt</option>
-                                                <option>Sister</option>
-                                                <option>Brother</option>
-                                                <option>Husband</option>
-                                                <option>Wife</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                <option>13</option>
+                                                <option>14/option>
                                             </select>
 
                                         </div>
 
-                                        <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Next of Kin Phone</span>
-                                            <input type='number' name='phone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                        <div class='input-group' style='margin-bottom:10px; '>
+                                            <span class='input-group-addon'>Date of comming</span>
+                                            <input type='date' placeholder='Payment Log date' name='dob' class='form-control' value=''>
                                         </div>
-                                        <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Patient Phone</span>
-                                            <input type='number' name='kphone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                        <div class='input-group' style='margin-bottom:10px; '>
+                                            <span class='input-group-addon'>Date of Leaving</span>
+                                            <input type='date' placeholder='Payment Log date' name='dob' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Select Payment</span>
