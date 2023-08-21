@@ -1,5 +1,6 @@
 <?php include("header.php") ?>
 
+
 <section class="vh-100 d-flex" style="background-color: #3f51b5;">
     <div class="col-9 m-auto ">
         <div class="card">
@@ -18,7 +19,7 @@
                     <div class='mid-content-top charts-grids '>
                         <div class='middle-content '>
 
-                            <form action='register.php' method='post'>
+                            <form action='' method='post'>
                                 <div class='charts'>
                                     <div class='col-md-4 charts-grids widget'>
                                         <div class='card-header' style='font-weight: bold;font-family: ' Palatino Linotype', serif'>
@@ -176,7 +177,7 @@
 
                                 <div class='modal-footer'>
 
-                                    <input type='submit' class='btn btn-success' id='btns1' value='Submit' name='submited2'> &nbsp;
+                                    <input type='submit' class='btn btn-success' id='btns1' value='Submit' name='Submit'> &nbsp;
                                     <input type='reset' class='btn btn-success' id='btns' value='Clear' name=''>
 
                                 </div>
