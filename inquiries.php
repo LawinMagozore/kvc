@@ -27,19 +27,19 @@
 
                                         <div id='container' style='width: 100%; '>
                                             <p style='margin-bottom:10px; margin-top:10px;'>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='pro'>&nbsp;Pro&nbsp;&nbsp; &nbsp; &nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='dr'>&nbsp;Dr &nbsp; &nbsp;&nbsp;&nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='mr'>&nbsp;Mr &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='mrs'>&nbsp;Mrs &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='miss'>&nbsp;Miss</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Pro&nbsp;&nbsp; &nbsp; &nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Dr &nbsp; &nbsp;&nbsp;&nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Mr &nbsp; &nbsp; &nbsp;&nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Mrs &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Miss</span>
                                             </p>
                                             <div class='input-group' style='margin-bottom:10px;'>
                                                 <span class='input-group-addon'>First Name</span>
-                                                <input type='text' name='fname' placeholder='Enter First Name' value='' class='form-control'>
+                                                <input type='text' name='firstname' placeholder='Enter First Name' value='' class='form-control'>
                                             </div>
                                             <div class='input-group' style='margin-bottom:10px;'>
                                                 <span class='input-group-addon'>Other Name</span>
-                                                <input type='text' name='mname' placeholder='Other name' value='' class='form-control' value=''>
+                                                <input type='text' name='othername' placeholder='Other name' value='' class='form-control' value=''>
                                             </div>
                                             <div class='input-group' style='margin-bottom:10px;'>
                                                 <span class='input-group-addon'>Last Name</span>
@@ -57,7 +57,7 @@
                                             </div>
                                             <div class='input-group' style='margin-bottom:10px; '>
                                                 <span class='input-group-addon'>Date of Birth</span>
-                                                <input type='date' placeholder='Payment Log date' name='dob' class='form-control' value=''>
+                                                <input type='dob' placeholder='Payment Log date' name='dob' class='form-control' value=''>
                                             </div>
 
                                         </div>
@@ -72,15 +72,15 @@
 
                                         <div class='input-group' style='margin-bottom:10px;margin-top:15px;'>
                                             <span class='input-group-addon'>Current Location</span>
-                                            <input type='text' name='village' placeholder='Residential area' class='form-control' value=''>
+                                            <input type='text' name='location' placeholder='location' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Next of Kin</span>
-                                            <input type='text' name='guardian' placeholder='Enter Guardian' class='form-control' value=''>
+                                            <input type='text' name='nextkin' placeholder='Next of Kin' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Relationship</span>
-                                            <select name='relationshipd' style='height:30px; width: 100%'>
+                                            <select name='relationship' style='height:30px; width: 100%'>
                                                 <option>Mother</option>
                                                 <option>Father</option>
                                                 <option>Auncle</option>
@@ -95,15 +95,15 @@
 
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Next of Kin Phone</span>
-                                            <input type='text' name='phone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                            <input type='text' name='nextkin' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Your Phone</span>
-                                            <input type='text' name='kphone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                            <input type='text' name='phonenumb' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Select Payment</span>
-                                            <select name='patientpay' id='paypatient' style='height:30px; width: 100%'>
+                                            <select name='payment' id='payment' style='height:30px; width: 100%'>
                                                 <option>CASH</option>
                                                 <option>SCHEME</option>
 
@@ -125,15 +125,15 @@
 
                                         <div class='input-group' style='margin-bottom:10px;margin-top:15px;'>
                                             <span class='input-group-addon'>No of Rooms</span>
-                                            <input type='number' name='roomnum' placeholder='Residential area' class='form-control' value=''>
+                                            <input type='number' name='norooms' placeholder='No of Rooms' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Any Special case</span>
-                                            <input type='text' name='anyspecialcase' placeholder='Enter Guardian' class='form-control' value=''>
+                                            <input type='text' name='anyspecial' placeholder='Any Special case' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>No Of Days</span>
-                                            <select name='relationshipd' style='height:30px; width: 100%'>
+                                            <select name='nodays' style='height:30px; width: 100%'>
                                                 <option>1</option>
                                                 <option>2</option>
                                                 <option>3</option>
@@ -153,22 +153,15 @@
 
                                         <div class='input-group' style='margin-bottom:10px; '>
                                             <span class='input-group-addon'>Date of comming</span>
-                                            <input type='date' placeholder='Payment Log date' name='dob' class='form-control' value=''>
+                                            <input type='date' placeholder='Date of comming' name='docoming' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px; '>
                                             <span class='input-group-addon'>Date of Leaving</span>
-                                            <input type='date' placeholder='Payment Log date' name='dob' class='form-control' value=''>
+                                            <input type='date' placeholder='Date of Leaving' name='doleaing' class='form-control' value=''>
                                         </div>
-                                        <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Select Payment</span>
-                                            <select name='patientpay' id='paypatient' style='height:30px; width: 100%'>
-                                                <option>CASH</option>
-                                                <option>SCHEME</option>
-
-
-
-                                            </select>
-
+                                        <div class='input-group' style='margin-bottom:10px; '>
+                                            <span class='input-group-addon'>Email</span>
+                                            <input type='email' placeholder='Email' name='email' class='form-control' value=''>
                                         </div>
 
 
