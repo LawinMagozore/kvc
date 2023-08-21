@@ -3,10 +3,7 @@
 include('db.php')
 ?>
 <?php
-$con = mysqli_connect("localhost", "root", "", "kvc");
-if (!$con) {
-    die("DB Error");
-}
+
 if (isset($_POST['submit'])) {
     $status = $_POST['status'];
     $firstname = $_POST['firstname'];
