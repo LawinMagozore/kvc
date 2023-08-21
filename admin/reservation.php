@@ -85,10 +85,10 @@ include('db.php')
                                     <div class="form-group">
                                         <label>Nationality*</label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="nation" value=Indian"" checked="">Zimbabwean
+                                            <input type="radio" name="nation" value=Zimbabwean"" checked="">Zimbabwean
                                         </label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="nation" value="Non Indian ">Non Zimbabwean
+                                            <input type="radio" name="nation" value="Non Zimbabwean ">Non Zimbabwean
                                         </label>
 
                                     </div>
@@ -155,12 +155,12 @@ include('db.php')
                                         <select name="nroom" class="form-control" required>
                                             <option value selected></option>
                                             <option value="1">1</option>
-                                            <!--  <option value="2">2</option>
-												<option value="3">3</option>
-												<option value="4">4</option>
-												<option value="5">5</option>
-												<option value="6">6</option>
-												<option value="7">7</option> -->
+                                            < <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
                                         </select>
                                     </div>
 

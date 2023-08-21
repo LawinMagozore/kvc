@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
 
 ?>
 
-<section class="vh-100 d-flex" style="background-color: #3f51b5;">
+<section class="vh-100 d-flex" style="background-color: #05014a;">
     <div class="col-9 m-auto ">
         <div class="card">
 
