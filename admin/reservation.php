@@ -211,7 +211,7 @@ include('db.php')
                                         $msg = "Invalide code";
                                     } else {
 
-                                        $con = mysqli_connect("localhost", "root", "", "hotel");
+                                        $con = mysqli_connect("localhost", "root", "", "kvc");
                                         $check = "SELECT * FROM roombook WHERE email = '$_POST[email]'";
                                         $rs = mysqli_query($con, $check);
                                         $data = mysqli_fetch_array($rs, MYSQLI_NUM);

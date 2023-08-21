@@ -20,7 +20,8 @@ if (isset($_POST['submit'])) {
     $norooms = $_POST['norooms'];
     $email = $_POST['email'];
 
-    $query = mysqli_query($con, " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')") or die('DB Error');
+    $con = mysqli_connect("localhost", "root", "", "kvc");
+    mysqli_query($con, " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')") or die('DB Error');
 }
 
 
@@ -52,17 +53,17 @@ if (isset($_POST['submit'])) {
                             <form action='' method='post'>
                                 <div class='charts'>
                                     <div class='col-md-4 charts-grids widget'>
-                                        <div class='card-header' style='font-weight: bold;font-family: ' Palatino Linotype', serif'>
+                                        <div class='card-header' style='font-weight: bold;font-family: 1' Palatino Linotype', serif'>
                                             <h3>Personal Details</h3>
                                         </div>
 
                                         <div id='container' style='width: 100%; '>
                                             <p style='margin-bottom:10px; margin-top:10px;'>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Pro&nbsp;&nbsp; &nbsp; &nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Dr &nbsp; &nbsp;&nbsp;&nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Mr &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Mrs &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                                                <span style='font-size: 15px; font-weight: bold;font-family: ' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Miss</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: 1' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Pro&nbsp;&nbsp; &nbsp; &nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: 1' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Dr &nbsp; &nbsp;&nbsp;&nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: 1' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Mr &nbsp; &nbsp; &nbsp;&nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: 1' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Mrs &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+                                                <span style='font-size: 15px; font-weight: bold;font-family: 1' Palatino Linotype', serif'><input type='checkbox' name='status'>&nbsp;Miss</span>
                                             </p>
                                             <div class='input-group' style='margin-bottom:10px;'>
                                                 <span class='input-group-addon'>First Name</span>
@@ -96,7 +97,7 @@ if (isset($_POST['submit'])) {
                                     </div>
 
                                     <div class='col-md-4 charts-grids widget states-mdl'>
-                                        <div class='card-header' style='font-weight: bold;font-family: ' Palatino Linotype', serif'>
+                                        <div class='card-header' style='font-weight: bold;font-family: 1' Palatino Linotype', serif'>
                                             <h3>Other Details</h3>
                                         </div>
 
@@ -149,7 +150,7 @@ if (isset($_POST['submit'])) {
 
                                     </div>
                                     <div class='col-md-4 charts-grids widget states-mdl'>
-                                        <div class='card-header' style='font-weight: bold;font-family: ' Palatino Linotype', serif'>
+                                        <div class='card-header' style='font-weight: bold;font-family: 1' Palatino Linotype', serif'>
                                             <h3>Other Details</h3>
                                         </div>
 
