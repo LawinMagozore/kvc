@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
 
 
-    $sql = " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')";
+    $sql = " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`doleaing`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')";
     $result = mysqli_query($con, $sql);
 
     // Check if the INSERT operation was successful
@@ -140,7 +140,7 @@ if (isset($_POST['submit'])) {
 
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Next of Kin Phone</span>
-                                            <input type='text' name='nextkin' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                            <input type='text' name='nextkinphone' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Your Phone</span>
@@ -220,8 +220,7 @@ if (isset($_POST['submit'])) {
 
 
                                 <div class='modal-footer'>
-
-                                    <input type='submit' class='btn btn-success' id='btns1' value='Submit' name='Submit'> &nbsp;
+                                    <button name="submit" class="btn btn-success"> Submit </button>
                                     <input type='reset' class='btn btn-success' id='btns' value='Clear' name=''>
 
                                 </div>
