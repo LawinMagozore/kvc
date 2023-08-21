@@ -95,11 +95,11 @@
 
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Next of Kin Phone</span>
-                                            <input type='number' name='phone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                            <input type='text' name='phone' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Your Phone</span>
-                                            <input type='number' name='kphone' placeholder='Enter Phone' value='' class='form-control' value=''>
+                                            <input type='text' name='kphone' placeholder='Enter Phone' value='' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>Select Payment</span>
@@ -146,7 +146,7 @@
                                                 <option>11</option>
                                                 <option>12</option>
                                                 <option>13</option>
-                                                <option>14/option>
+                                                <option>14</option>
                                             </select>
 
                                         </div>
