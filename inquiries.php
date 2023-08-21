@@ -1,5 +1,12 @@
 <?php include("header.php") ?>
 <?php
+include('db.php')
+?>
+<?php
+$con = mysqli_connect("localhost", "root", "", "kvc");
+if (!$con) {
+    die("DB Error");
+}
 if (isset($_POST['submit'])) {
     $status = $_POST['status'];
     $firstname = $_POST['firstname'];
@@ -20,8 +27,14 @@ if (isset($_POST['submit'])) {
     $norooms = $_POST['norooms'];
     $email = $_POST['email'];
 
-    $con = mysqli_connect("localhost", "root", "", "kvc");
-    mysqli_query($con, " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')") or die('DB Error');
+
+    $sql = " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')";
+    $result = mysqli_query($con, $sql);
+
+    // Check if the INSERT operation was successful
+    if (!$result) {
+        echo "DB Error";
+    }
 }
 
 
@@ -50,7 +63,7 @@ if (isset($_POST['submit'])) {
                     <div class='mid-content-top charts-grids '>
                         <div class='middle-content '>
 
-                            <form action='' method='post'>
+                            <form action='' method='POST'>
                                 <div class='charts'>
                                     <div class='col-md-4 charts-grids widget'>
                                         <div class='card-header' style='font-weight: bold;font-family: 1' Palatino Linotype', serif'>
