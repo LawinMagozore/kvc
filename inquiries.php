@@ -19,6 +19,9 @@ if (isset($_POST('submit'))) {
     $doleaing = $_POST('doleaing');
     $norooms = $_POST('norooms');
     $email = $_POST('email');
+
+    mysqli_query($con, "INSERT INTO inquiries (`status`,`firstname`,`lname`,`gender`,`dob`,`location`,`nextkin`,
+    `relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`docoming`,`norooms`,`email`) VALUES()");
 }
 
 
