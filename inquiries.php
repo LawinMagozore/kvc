@@ -1,5 +1,33 @@
 <?php include("header.php") ?>
+<?php
+if (isset($_POST('submit'))) {
+    $status = $_POST('status');
+    $firstname = $_POST('firstname');
+    $othername = $_POST('othername');
+    $lname = $_POST('lname');
+    $gender = $_POST('gender');
+    $dob = $_POST('dob');
+    $location = $_POST('location');
+    $nextkin = $_POST('nextkin');
+    $relationship = $_POST('relationship');
+    $nextkinphone = $_POST('nextkinphone');
+    $phonenumb = $_POST('phonenumb');
+    $payment = $_POST('payment');
+    $anyspecial = $_POST('anyspecial');
+    $nodays = $_POST('nodays');
+    $docoming = $_POST('docoming');
+    $doleaing = $_POST('doleaing');
+    $norooms = $_POST('norooms');
+    $email = $_POST('email');
+}
 
+
+
+
+
+
+
+?>
 
 <section class="vh-100 d-flex" style="background-color: #3f51b5;">
     <div class="col-9 m-auto ">
