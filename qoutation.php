@@ -484,7 +484,7 @@
                     <td><span><?php echo $relationship; ?></span></td>
                     <td><span><?php echo $days; ?> </span></td>
                     <td><span data-prefix>Us.</span><span><?php echo $type_of_room; ?></span></td>
-                    <td><span><?php echo $nroom; ?> </span></td>
+                    <td><span><?php echo $norooms; ?> </span></td>
                     <td><span data-prefix>us.</span><span><?php echo $ttot; ?></span></td>
                 </tr>
                 <tr>
