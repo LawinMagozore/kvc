@@ -385,21 +385,16 @@
     ob_start();
     include('db.php');
 
-
-
-
-
     $sql = "select * from inquiries ";
     $re = mysqli_query($con, $sql);
     while ($row = mysqli_fetch_array($re)) {
 
         $id = $row['id'];
         $status = $row['status'];
-        $firstname = $_row['firstname'];
+        $firstname = $row['firstname'];
         $othername = $row['othername'];
         $lname = $row['lname'];
         $gender = $row['gender'];
-        $dob = $row['dob'];
         $location = $row['location'];
         $nextkin = $row['nextkin'];
         $relationship = $row['relationship'];
@@ -412,6 +407,7 @@
         $doleaing = $row['doleaing'];
         $norooms = $row['norooms'];
         $email = $row['email'];
+        $days = $row['days'];
     }
 
     $type_of_room = 0;
@@ -455,12 +451,12 @@
             <p> 33 km peg Along Great Zimbabwe Road <br>Lake Kyle,<br>Masvingo,<br>Zimbabwe.</p>
             <p>+263 8612 816 687</p>
         </address>
-        <span><img alt="" src="assets/img/kielView.png"></span>
+        <span><img alt="" src="images/kielView.png"></span>
     </header>
     <article>
         <h1>Recipient</h1>
         <address>
-            <p><?php echo $title . $fname . " " . $lname ?> <br></p>
+            <p><?php echo $status . " " . $firstname . " " . $lname ?> <br></p>
         </address>
         <table class="meta">
             <tr>
@@ -469,7 +465,7 @@
             </tr>
             <tr>
                 <th><span>Date</span></th>
-                <td><span><?php echo $cout; ?> </span></td>
+                <td><span><?php echo $docoming; ?> </span></td>
             </tr>
 
         </table>
@@ -485,7 +481,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><span><?php echo $troom; ?></span></td>
+                    <td><span><?php echo $relationship; ?></span></td>
                     <td><span><?php echo $days; ?> </span></td>
                     <td><span data-prefix>Us.</span><span><?php echo $type_of_room; ?></span></td>
                     <td><span><?php echo $nroom; ?> </span></td>
