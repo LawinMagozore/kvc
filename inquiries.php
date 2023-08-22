@@ -207,9 +207,7 @@ if (isset($_POST['submit'])) {
 
 
                                         <div class='modal-footer'>
-                                            <button name="submit" class="btn btn-success"> Print </button>
-                                            <button name="submit" class="btn btn-success"> Submit </button>
-                                            <input type='reset' class='btn btn-success' id='btns' value='Clear' name=''>
+                                            <button name="submit" class="btn btn-success form-control"> Print Your Qoutation By Clicking This Button </button>
 
                                         </div>
                                     </form>
