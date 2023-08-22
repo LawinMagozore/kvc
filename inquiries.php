@@ -111,16 +111,14 @@ if (isset($_POST['submit'])) {
                                                     <input type='text' name='nextkin' placeholder='Next of Kin' class='form-control' value=''>
                                                 </div>
                                                 <div class='input-group' style='margin-bottom:10px;'>
-                                                    <span class='input-group-addon'>Relationship</span>
+                                                    <span class='input-group-addon'>Meal Plan</span>
                                                     <select name='relationship' style='height:30px; width: 100%'>
-                                                        <option>Mother</option>
-                                                        <option>Father</option>
-                                                        <option>Auncle</option>
-                                                        <option>Aunt</option>
-                                                        <option>Sister</option>
-                                                        <option>Brother</option>
-                                                        <option>Husband</option>
-                                                        <option>Wife</option>
+                                                        <option value selected></option>
+                                                        <option value="Room only">Room only</option>
+                                                        <option value="Breakfast">Breakfast</option>
+                                                        <option value="Half Board">Half Board</option>
+                                                        <option value="Full Board">Full Board</option>
+
                                                     </select>
 
                                                 </div>
@@ -171,21 +169,15 @@ if (isset($_POST['submit'])) {
 
                                                 </div>
                                                 <div class='input-group' style='margin-bottom:10px;'>
-                                                    <span class='input-group-addon'>No Of Days</span>
+                                                    <span class='input-group-addon'>Type Of Bed</span>
                                                     <select name='nodays' style='height:30px; width: 100%'>
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                        <option>6</option>
-                                                        <option>7</option>
-                                                        <option>9</option>
-                                                        <option>10</option>
-                                                        <option>11</option>
-                                                        <option>12</option>
-                                                        <option>13</option>
-                                                        <option>14</option>
+                                                        <option value selected></option>
+                                                        <option value="Single">Single</option>
+                                                        <option value="Double">Double</option>
+                                                        <option value="Triple">Triple</option>
+                                                        <option value="Quad">Quad</option>
+                                                        <option value="None">None</option>
+
                                                     </select>
 
                                                 </div>
@@ -327,16 +319,14 @@ if (isset($_POST['submit'])) {
                                             <input type='text' name='nextkin' placeholder='Next of Kin' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Relationship</span>
-                                            <select name='relationship' style='height:30px; width: 100%'>
-                                                <option>Mother</option>
-                                                <option>Father</option>
-                                                <option>Auncle</option>
-                                                <option>Aunt</option>
-                                                <option>Sister</option>
-                                                <option>Brother</option>
-                                                <option>Husband</option>
-                                                <option>Wife</option>
+                                            <span class='input-group-addon'>Meal Plan</span>
+                                            <select name='anyspecial' style='height:30px; width: 100%'>
+                                                <option value selected></option>
+                                                <option value="Room only">Room only</option>
+                                                <option value="Breakfast">Breakfast</option>
+                                                <option value="Half Board">Half Board</option>
+                                                <option value="Full Board">Full Board</option>
+
                                             </select>
 
                                         </div>
@@ -376,25 +366,26 @@ if (isset($_POST['submit'])) {
                                             <input type='number' name='norooms' placeholder='No of Rooms' class='form-control' value=''>
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
-                                            <span class='input-group-addon'>Any Special case</span>
-                                            <input type='text' name='anyspecial' placeholder='Any Special case' class='form-control' value=''>
+                                            <span class='input-group-addon'>Type Of Room</span>
+                                            <select name='relationship' style='height:30px; width: 100%'>
+                                                <option value selected></option>
+                                                <option value="Superior Room">SUPERIOR ROOM</option>
+                                                <option value="Deluxe Room">DELUXE ROOM</option>
+                                                <option value="Guest House">GUEST HOUSE</option>
+                                                <option value="Single Room">SINGLE ROOM</option>
+                                            </select>
+
                                         </div>
                                         <div class='input-group' style='margin-bottom:10px;'>
                                             <span class='input-group-addon'>No Of Days</span>
                                             <select name='nodays' style='height:30px; width: 100%'>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                                <option>6</option>
-                                                <option>7</option>
-                                                <option>9</option>
-                                                <option>10</option>
-                                                <option>11</option>
-                                                <option>12</option>
-                                                <option>13</option>
-                                                <option>14</option>
+                                                <option value selected></option>
+                                                <option value="Single">Single</option>
+                                                <option value="Double">Double</option>
+                                                <option value="Triple">Triple</option>
+                                                <option value="Quad">Quad</option>
+                                                <option value="None">None</option>
+
                                             </select>
 
                                         </div>

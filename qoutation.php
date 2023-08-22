@@ -395,7 +395,7 @@
 
         $id = $row['id'];
         $status = $row['status'];
-        $firstname = $_POST['firstname'];
+        $firstname = $_row['firstname'];
         $othername = $row['othername'];
         $lname = $row['lname'];
         $gender = $row['gender'];
@@ -415,41 +415,41 @@
     }
 
     $type_of_room = 0;
-    if ($troom == "Superior Room") {
+    if ($relationship == "Superior Room") {
         $type_of_room = 320;
-    } else if ($troom == "Deluxe Room") {
+    } else if ($relationship == "Deluxe Room") {
         $type_of_room = 220;
-    } else if ($troom == "Guest House") {
+    } else if ($relationship == "Guest House") {
         $type_of_room = 180;
-    } else if ($troom == "Single Room") {
+    } else if ($relationship == "Single Room") {
         $type_of_room = 150;
     }
 
-    if ($bed == "Single") {
+    if ($nodays == "Single") {
         $type_of_bed = $type_of_room * 1 / 100;
-    } else if ($bed == "Double") {
+    } else if ($nodays == "Double") {
         $type_of_bed = $type_of_room * 2 / 100;
-    } else if ($bed == "Triple") {
+    } else if ($nodays == "Triple") {
         $type_of_bed = $type_of_room * 3 / 100;
-    } else if ($bed == "Quad") {
+    } else if ($nodays == "Quad") {
         $type_of_bed = $type_of_room * 4 / 100;
-    } else if ($bed == "None") {
+    } else if ($nodays == "None") {
         $type_of_bed = $type_of_room * 0 / 100;
     }
 
-    if ($meal == "Room only") {
+    if ($anyspecial == "Room only") {
         $type_of_meal = $type_of_bed * 0;
-    } else if ($meal == "Breakfast") {
+    } else if ($anyspecial == "Breakfast") {
         $type_of_meal = $type_of_bed * 2;
-    } else if ($meal == "Half Board") {
+    } else if ($anyspecial == "Half Board") {
         $type_of_meal = $type_of_bed * 3;
-    } else if ($meal == "Full Board") {
+    } else if ($anyspecial == "Full Board") {
         $type_of_meal = $type_of_bed * 4;
     }
 
     ?>
     <header>
-        <h1>Invoice</h1>
+        <h1>Qoutation</h1>
         <address>
             <p>KYLE VIEW CHARLETS,</p>
             <p> 33 km peg Along Great Zimbabwe Road <br>Lake Kyle,<br>Masvingo,<br>Zimbabwe.</p>
@@ -464,7 +464,7 @@
         </address>
         <table class="meta">
             <tr>
-                <th><span>Invoice #</span></th>
+                <th><span>Qoutation #</span></th>
                 <td><span><?php echo $id; ?></span></td>
             </tr>
             <tr>
