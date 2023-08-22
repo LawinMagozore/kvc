@@ -207,8 +207,7 @@ if (isset($_POST['submit'])) {
 
 
                                         <div class='modal-footer'>
-                                            <button name="submit" class="btn btn-success form-control"> Print Your Qoutation By Clicking This Button </button>
-
+                                            <a href="qoutation.php" class="btn btn-success form-control">Print Your Qoutation By Clicking This Button</a>
                                         </div>
                                     </form>
                                 </div>
