@@ -160,8 +160,15 @@ if (isset($_POST['submit'])) {
                                                     <input type='number' name='norooms' placeholder='No of Rooms' class='form-control' value=''>
                                                 </div>
                                                 <div class='input-group' style='margin-bottom:10px;'>
-                                                    <span class='input-group-addon'>Any Special case</span>
-                                                    <input type='text' name='anyspecial' placeholder='Any Special case' class='form-control' value=''>
+                                                    <span class='input-group-addon'>Type Of Room</span>
+                                                    <select name='relationship' style='height:30px; width: 100%'>
+                                                        <option value selected></option>
+                                                        <option value="Superior Room">SUPERIOR ROOM</option>
+                                                        <option value="Deluxe Room">DELUXE ROOM</option>
+                                                        <option value="Guest House">GUEST HOUSE</option>
+                                                        <option value="Single Room">SINGLE ROOM</option>
+                                                    </select>
+
                                                 </div>
                                                 <div class='input-group' style='margin-bottom:10px;'>
                                                     <span class='input-group-addon'>No Of Days</span>

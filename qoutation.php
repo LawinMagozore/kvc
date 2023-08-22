@@ -385,11 +385,11 @@
     ob_start();
     include('db.php');
 
-    $pid = $_GET['pid'];
 
 
 
-    $sql = "select * from payment where id = '$pid' ";
+
+    $sql = "select * from inquiries ";
     $re = mysqli_query($con, $sql);
     while ($row = mysqli_fetch_array($re)) {
         $id = $row['id'];
