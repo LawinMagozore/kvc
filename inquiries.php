@@ -26,10 +26,9 @@ if (isset($_POST['submit'])) {
 
 
     $sql = " INSERT INTO inquiries (`status`,`firstname`,`othername`,`lname`,`gender`,`dob`,`location`,`nextkin`,`relationship`,`nextkinphone`,`phonenumb`,`payment`,`anyspecial`,`nodays`,`docoming`,`doleaing`,`norooms`,`email`) VALUES('$status','$firstname','$othername','$lname','$gender','$dob','$location','$nextkin','$relationship','$nextkinphone','$phonenumb','$payment','$anyspecial','$nodays','$docoming','$doleaing','$norooms','$email')";
-    $result = mysqli_query($con, $sql);
-
-    // Check if the INSERT operation was successful
-    if (!$result) {
+    if ($result = mysqli_query($con, $sql)) {
+        echo "<script type='text/javascript'> alert('Your Qoutation application has been sent')</script>";
+    } else {
         echo "DB Error";
     }
 }
