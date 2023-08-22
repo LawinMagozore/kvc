@@ -392,21 +392,26 @@
     $sql = "select * from inquiries ";
     $re = mysqli_query($con, $sql);
     while ($row = mysqli_fetch_array($re)) {
+
         $id = $row['id'];
-        $title = $row['title'];
-        $fname = $row['fname'];
+        $status = $row['status'];
+        $firstname = $_POST['firstname'];
+        $othername = $row['othername'];
         $lname = $row['lname'];
-        $troom = $row['troom'];
-        $bed = $row['tbed'];
-        $nroom = $row['nroom'];
-        $cin = $row['cin'];
-        $cout = $row['cout'];
-        $meal = $row['meal'];
-        $ttot = $row['ttot'];
-        $mepr = $row['mepr'];
-        $btot = $row['btot'];
-        $fintot = $row['fintot'];
-        $days = $row['noofdays'];
+        $gender = $row['gender'];
+        $dob = $row['dob'];
+        $location = $row['location'];
+        $nextkin = $row['nextkin'];
+        $relationship = $row['relationship'];
+        $nextkinphone = $row['nextkinphone'];
+        $phonenumb = $row['phonenumb'];
+        $payment = $row['payment'];
+        $anyspecial = $row['anyspecial'];
+        $nodays = $row['nodays'];
+        $docoming = $row['docoming'];
+        $doleaing = $row['doleaing'];
+        $norooms = $row['norooms'];
+        $email = $row['email'];
     }
 
     $type_of_room = 0;
