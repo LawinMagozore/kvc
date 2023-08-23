@@ -495,10 +495,10 @@
                     <td><span data-prefix>Us.</span><span><?php echo $btot; ?></span></td>
                 </tr>
                 <tr>
-                    <td><span><?php echo $meal; ?> </span></td>
+                    <td><span><?php echo $anyspecial; ?> </span></td>
                     <td><span><?php echo $days; ?></span></td>
                     <td><span data-prefix>Rs.</span><span><?php echo $type_of_meal ?></span></td>
-                    <td><span><?php echo $nroom; ?> </span></td>
+                    <td><span><?php echo $norooms; ?> </span></td>
                     <td><span data-prefix>Us.</span><span><?php echo $mepr; ?></span></td>
                 </tr>
             </tbody>
