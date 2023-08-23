@@ -488,10 +488,10 @@
                     <td><span data-prefix>us.</span><span><?php echo $ttot; ?></span></td>
                 </tr>
                 <tr>
-                    <td><span><?php echo $bed; ?> Bed </span></td>
+                    <td><span><?php echo $nodays; ?> Bed </span></td>
                     <td><span><?php echo $days; ?></span></td>
                     <td><span data-prefix>us.</span><span><?php echo $type_of_bed; ?></span></td>
-                    <td><span><?php echo $nroom; ?> </span></td>
+                    <td><span><?php echo $norooms; ?> </span></td>
                     <td><span data-prefix>Us.</span><span><?php echo $btot; ?></span></td>
                 </tr>
                 <tr>
